@@ -55,6 +55,7 @@ section {
 }
 
 footer {
+  color: white;
   text-align: center;
   padding: 10px;
   width: 100%;
@@ -66,4 +67,17 @@ footer {
     #8b4513 50%,
     #8b4513 100%
   );
+}
+
+.shake {
+  animation: shake 2s;
+}
+
+@keyframes shake {
+  0% { transform: translateX(0); }
+  20% { transform: translateX(-10px); }
+  40% { transform: translateX(10px); }
+  60% { transform: translateX(-10px); }
+  80% { transform: translateX(10px); }
+  100% { transform: translateX(0); }
 }
