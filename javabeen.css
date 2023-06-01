@@ -4,13 +4,8 @@ body {
   font-family: 'Hind', sans-serif;
   width: 100%;
   height: 100vh;
-  background: linear-gradient(
-    to right,
-    #f5deb3 00%,
-    #f5deb3 50%,
-    #8b4513 50%,
-    #8b4513 100%
-  );
+  overflow: hidden;
+  background-image: url(homeimage.jpeg);
 }
 
 *{
@@ -25,7 +20,6 @@ body {
 }
 
 header {
-  text-align: center;
   padding: 20px;
 }
 
@@ -54,19 +48,16 @@ section {
   padding: 20px;
 }
 
+#homepagetext{
+  max-width: 600px;
+}
+
 footer {
   color: white;
   text-align: center;
   padding: 10px;
   width: 100%;
   height: 100vh;
-  background: linear-gradient(
-    to right,
-    #f5deb3 00%,
-    #f5deb3 50%,
-    #8b4513 50%,
-    #8b4513 100%
-  );
 }
 
 .shake {
