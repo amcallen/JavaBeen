@@ -70,6 +70,10 @@ footer {
   animation: shake 2s;
 }
 
+.formRedBorder{
+   border: 2px solid red; 
+}
+
 /* Shake Animation for Home Order */
 
 @keyframes shake {
@@ -146,4 +150,5 @@ footer {
   position: relative;
   z-index: 2;
 }
+
 /* Contact Us Page Ends */
